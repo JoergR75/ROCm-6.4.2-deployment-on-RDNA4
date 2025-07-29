@@ -17,7 +17,8 @@ and Radeon RX 9060).
 4.	Install Script Breakdown
 5.	Test script and useful commands
 6.	References
- 
+
+
 1. Executive Summary
 The Radeon™ AI PRO R9700 is AMD’s latest workstation GPU designed to accelerate AI development and inference, combining advanced RDNA™ 4 architecture with dedicated AI engines for optimized performance and efficiency. With robust FP16/INT8 throughput and enterprise-grade drivers, it delivers reliable, high-performance compute for AI workloads in professional environments.
 This whitepaper presents a robust, automated solution for deploying AMD’s ROCm 6.4.2 platform, OpenCL 2.x, and PyTorch 2.9.0 (nightly build) along with Hugging Face Transformers on Ubuntu 22.04 and 24.04 systems. The script enables streamlined installation for AMD GPU-accelerated environments, optimized for RDNA3/4 and CDNA2/3 hardware. Designed for data scientists, ML engineers, and AI researchers, the solution offers a reproducible and fully automated installation experience that ensures compatibility, stability, and performance in both desktop and server configurations.
