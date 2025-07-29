@@ -199,7 +199,9 @@ source ~/.bashrc
 
 # create test script
 
-cd && echo 'import torch
+cd ~
+cat <<EOF > test.py
+import torch
 
 print("PyTorch version:", torch.__version__)
 print("ROCm version:", torch.version.hip if hasattr(torch.version, 'hip') else "Not ROCm build")
@@ -216,8 +218,7 @@ c = a + b
 
 print("Tensor operation successful on:", device)
 print(c)
-
-' >> test.py
+EOF
 
 # reboot option
 print 'Reboot system now (recommended)? (y/n)'
