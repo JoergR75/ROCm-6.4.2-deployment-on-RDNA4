@@ -21,12 +21,17 @@ It is recommended to use Ubuntu 24.04.x, which includes Python 3.12 wheels, requ
 
 All scripts were developed using the free version of Microsoft Visual Studio Code.
 If you encounter compatibility issues with the provided Bash script, you can create a new one in the main user directory using the following command:
-sudo nano os.sh
-Paste the script into the file, save it, and launch it using:
-bash os.sh
 
-The script (script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh) can be downloaded on GitHub repository as well
+📝 sudo nano os.sh
+
+Paste the script into the file, save it, and launch it using:
+
+📝 bash os.sh
+
+The script (script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh) can be downloaded on GitHub repository directly:
 
 📝 wget raw.githubusercontent.com/JoergR75/ROCm-6.4.2-deployment-on-RDNA4/refs/heads/main/script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh
-Start the script
-bash script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh
+
+Start the script:
+
+📝 bash script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh
