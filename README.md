@@ -26,6 +26,6 @@ Paste the script into the file, save it, and launch it using:
 bash os.sh
 
 The script (script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh) can be downloaded on GitHub repository as well
-wget raw.githubusercontent.com/JoergR75/ROCm-6.4.2-deployment-on-RDNA4/refs/heads/main/script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh
+📝 wget raw.githubusercontent.com/JoergR75/ROCm-6.4.2-deployment-on-RDNA4/refs/heads/main/script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh
 Start the script
 bash script_module_ROCm_642_Ubuntu_22.04-24.04_pytorch_290_v4server.sh
